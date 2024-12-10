@@ -1,0 +1,169 @@
+:root {
+    --premium-gray: #7f8c8d;
+    --premium-gold: #5F2C70;
+    --premium-darkGold: #5F2C70;
+    --premium-darkGray: #2c3e50;
+    --premium-blue: #2980b9;
+    --premium-red: #c0392b;
+    --premium-green: #27ae60;
+    --premium-pink: #e84393;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+
+  /* body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } */
+  body{
+    font-family: 'Yatra One', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .navBarTop {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: white;
+  }
+  
+  .fixed {
+    position: fixed;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .HamburgerDiv {
+    display: none;
+  }
+  
+  .hamburgerIcon {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .desktopMenu {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .desktopMenu ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .desktopMenu ul li a {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .desktopMenu ul li a:hover {
+    color: var(--premium-gold);
+  }
+  
+  /* Custom button styling */
+  .custom-button {
+    background-color: var(--premium-gold);
+    color: #1a1a1a;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: var(--premium-darkGold);
+    color: white;
+  }
+  
+  /* Drawer Styles */
+  .drawerNav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  
+  .drawerNav ul li {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+  
+  .drawerNav ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  
+  .drawerNav ul li a:hover {
+    color: white;
+  }
+  
+  .drawerNav ul li h1 {
+    font-size: 16px;
+    font-weight: 500;
+    color:white;
+  }
+  
+  .drawerNav ul li h1 span {
+    color: white;
+  }
+  
+  .flex.gap-2 .Button {
+    background: none;
+    color: var(--premium-gold);
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .flex.gap-2 .Button:hover {
+    color: white;
+  }
+  
+  /* Social media icons */
+  .text-premium-green, 
+  .text-premium-blue, 
+  .text-premium-red, 
+  .text-premium-darkGray, 
+  .text-premium-pink {
+    color: var(--premium-gold);
+  }
+  
+  /* Responsive for mobile */
+  @media only screen and (max-width: 768px) {
+    .HamburgerDiv {
+      display: block;
+    }
+  
+    .desktopMenu {
+      display: none;
+    }
+  
+    .drawerNav ul {
+      padding-left: 10px;
+    }
+  
+    .drawerNav ul li {
+      font-size: 16px;
+    }
+  
+    .drawerNav ul li a {
+      font-size: 16px;
+    }
+  }
+  

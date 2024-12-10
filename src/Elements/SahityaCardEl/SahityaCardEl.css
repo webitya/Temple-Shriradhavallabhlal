@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@layer utilities {
+    .group-hover\\:scale-110:hover {
+      transform: scale(1.1);
+    }
+  }
+  

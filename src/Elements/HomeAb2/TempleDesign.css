@@ -1,0 +1,68 @@
+/* TempleDesign.css */
+
+/* Import Montserrat font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Background settings */
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, #E4B5D4, #F2E9E4);
+}
+
+/* Text adjustments */
+.text-white {
+  color: #5F2C70; /* Adjusted for better contrast */
+}
+
+.temple-header {
+  font-family: 'Montserrat', sans-serif; /* Modern font */
+  color: #8a6a9a; /* Soft brown for headers */
+  text-align: center;
+  font-size: 3rem; /* Adjusted size */
+  margin-bottom: 1.5rem; /* Space below the header */
+  text-transform: uppercase; /* All caps for a bold look */
+  position: relative;
+  z-index: 1; /* Ensures the header appears above other content */
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat for subheaders as well */
+  color: #5F2C70; /* Change color if needed */
+  margin-bottom: 1rem; /* Space below the subheader */
+}
+
+/* Responsive Text */
+.text-lg {
+  font-size: 1.125rem; /* Base size */
+}
+
+.md\:text-2xl {
+  font-size: 1.5rem; /* Medium size for larger screens */
+}
+
+.md\:text-4xl {
+  font-size: 2.25rem; /* Heading size for larger screens */
+}
+
+/* Shadow and transition for images */
+img {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for images */
+}
+
+/* Ensure headings are responsive */
+.text-5xl {
+  font-size: 3rem; /* Base heading size */
+}
+
+.md\:text-6xl {
+  font-size: 4rem; /* Larger heading size on medium screens */
+}
+
+/* Custom text colors */
+.text-white1 {
+  color: #461257;
+}
+
+/* Additional styles for button (if needed) */
+button {
+  font-family: 'Montserrat', sans-serif; /* Ensures buttons use the same font */
+}

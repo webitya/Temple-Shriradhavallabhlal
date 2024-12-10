@@ -1,0 +1,59 @@
+.thumbnail {
+    width: 100vw;
+    max-height: 80vh;
+    object-fit: cover;
+    padding:10px 0px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Play button container (no background or border-radius) */
+  .play-btn-container {
+    background: none; /* Removed the background */
+  }
+  
+  .play-btn {
+    color: #ffffff;
+    font-size: 4rem; /* Increased size for visibility */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .play-btn:hover {
+    transform: scale(1.1); /* Slight hover effect for interactivity */
+  }
+  
+  /* Styling for the video element */
+  .video-element {
+    width: 85vw;
+    max-height: 80vh;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+  }
+  
+  /* Fade-in effect for video */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .video-element, .thumbnail {
+      width: 90vw !important;
+      max-height: 50vh !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .video-element, .thumbnail {
+      width: 95vw !important;
+      max-height: 40vh !important;
+    }
+  }
+  

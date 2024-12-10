@@ -1,0 +1,80 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+.footer-container {
+  background-color: #FABC3F; /* Solid background color */
+  color: white;
+  padding: 40px 20px;
+  font-family: 'Yatra One', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.social-icons {
+  display: flex;
+  gap: 25px;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-address {
+  font-size: 1.2rem;
+}
+
+.footer-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 180px;
+}
+
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+.inquiry-text {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.inquiry-button {
+  background-color: #25D366;
+  color: white;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.inquiry-button:hover {
+  background-color: #1DAF53;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-right {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .inquiry-button {
+    width: 100%;
+  }
+}

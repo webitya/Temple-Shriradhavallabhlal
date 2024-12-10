@@ -1,0 +1,120 @@
+/* Main section styles */
+.temple-section {
+  padding: 1rem;
+  background: linear-gradient(to right, #faf59f, #f7f5d4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Header styles */
+.temple-header {
+  font-family: 'Montserrat', sans-serif; /* Modern font */
+  color: #8a6a9a; /* Soft brown for headers */
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase; /* All caps for a bold look */
+  position: relative;
+  z-index: 1;
+}
+
+/* Card styles */
+.temple-card {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.9); /* Light background for cards */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  position: relative;
+}
+
+.temple-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  border-color: #e8b1c6; /* Subtle border color change on hover */
+}
+
+.temple-card-image {
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Card content styles */
+.temple-card-content {
+  padding: 1rem;
+}
+
+.temple-card-title {
+  font-family: 'Poppins', sans-serif;
+  color: #8a6a9a; /* Matching title color */
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #e8b1c6; /* Underline effect */
+  padding-bottom: 0.5rem; /* Spacing below title */
+}
+
+.icon {
+  color: #e8b1c6; /* Icon color */
+  margin-right: 0.5rem;
+}
+
+/* Content styles */
+.temple-content {
+  text-align: left;
+  color: #8a6a9a;
+}
+
+.temple-paragraph {
+  line-height: 1.8;
+  font-size: 1.1rem; /* Slightly larger text for readability */
+  margin-bottom: 1rem;
+}
+
+.temple-subheader {
+  font-family: 'Poppins', sans-serif;
+  color: #8a6a9a; /* Matching subheader color */
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase; /* Capitalized for emphasis */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .temple-header {
+    font-size: 2.5rem;
+  }
+
+  .temple-paragraph {
+    font-size: 1rem;
+  }
+
+  .temple-subheader {
+    font-size: 1.5rem;
+  }
+}
+
+/* Additional decorative styles */
+.temple-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.2); /* Light overlay for depth */
+  border-radius: 15px;
+  z-index: 0;
+  pointer-events: none; /* Allow interaction with underlying elements */
+}
+
+.temple-card-text {
+  transition: color 0.3s; /* Smooth transition for text color */
+}
+
+.temple-card:hover .temple-card-text {
+  color: #6c4a6b; /* Change text color on hover */
+}

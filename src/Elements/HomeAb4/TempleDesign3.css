@@ -1,0 +1,52 @@
+/* TempleDesign3.css */
+
+/* Background and general styles */
+.about-section {
+  background: linear-gradient(to right, #fffdd1, #fffccb); /* Soft gradient background */
+  /* padding: 4rem 2rem;  */
+  color: #333; /* Dark text for contrast */
+  border-radius: 10px; /* Rounded corners for the section */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for the section */
+}
+
+/* Header Styles */
+.about-header {
+  font-family: 'Merriweather', serif; /* Elegant font for the header */
+  font-size: 2.5rem; /* Large font size for visibility */
+  color: #c0523a; /* Darker golden color for the header */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow for depth */
+}
+
+/* Card and Image Styling */
+.custom-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px; /* Rounded corners */
+  transition: transform 0.3s; /* Smooth scaling effect on hover */
+}
+
+.custom-image:hover {
+  transform: scale(1.05); /* Scale up image on hover */
+}
+
+/* Text Container Styles */
+.text-container {
+  background-color: rgba(255, 255, 255, 0.9); /* White background for contrast */
+  padding: 2rem; /* Padding inside the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Text Styles */
+.text-golden {
+  color: #c0523a; /* Darker golden color */
+}
+
+/* Additional Text Styles */
+.text-gray-800 {
+  color: #4a4a4a; /* Dark gray color for better readability */
+}
+
+.text-lg {
+  font-size: 1.125rem; /* Larger font size for the paragraph */
+}
