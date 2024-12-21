@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Carousel, Card, Row, Col, Button, Tooltip } from 'antd';
+import { Carousel, Card, Row, Col, Button, Tooltip, Modal } from 'antd';
 import {
   ClockCircleOutlined,
   CalendarOutlined,
@@ -9,7 +9,6 @@ import {
 } from '@ant-design/icons';
 import 'animate.css';
 
-// Custom Arrow Components with Hover Animation
 const NextArrow = ({ onClick }) => (
   <Tooltip title="Next" placement="top">
     <div
@@ -39,6 +38,7 @@ const PrevArrow = ({ onClick }) => (
 const TimingSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [isModalVisible, setIsModalVisible] = useState(false);
 
   const isSmallDevice = windowWidth < 576;
   const itemsPerSlide = isSmallDevice ? 1 : 2;
@@ -76,6 +76,7 @@ const TimingSection = () => {
         <Button
           type="primary"
           className="bg-yellow-500 hover:bg-yellow-600 transition-all duration-300 rounded-full shadow-md"
+          onClick={() => setIsModalVisible(true)}
         >
           View All
         </Button>
@@ -124,6 +125,23 @@ const TimingSection = () => {
           </div>
         ))}
       </Carousel>
+
+      <Modal
+        title="All Timings"
+        visible={isModalVisible}
+        onCancel={() => setIsModalVisible(false)}
+        footer={null}
+        centered
+      >
+        <div>
+          {timingEvents.map((event, index) => (
+            <div key={index} className="mb-4">
+              <h3 className="text-lg font-bold text-yellow-700">{event.title}</h3>
+              <p className="text-gray-700">{event.description}</p>
+            </div>
+          ))}
+        </div>
+      </Modal>
     </div>
   );
 };

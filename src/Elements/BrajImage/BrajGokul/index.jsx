@@ -2,22 +2,15 @@ import React, { useState } from 'react';
 import LayoutEl from '../../../Shared/Layout';
 
 const cardsData = [
-  { id: 2, title: "Brahmanad Ghat Gokul", templeName: "", imageUrl: "/gokul/brahmanad ghat gokul.png" },
-  { id: 3, title: "Chintaharan Mahadev Gokul", templeName: "", imageUrl: "/gokul/chintaharan mahadev gokul.png" },
-  { id: 4, title: "Chintaharan Mahadev", templeName: "", imageUrl: "/gokul/chintaharan mahadev.png" },
-  { id: 5, title: "Chintaharn Mahadev", templeName: "", imageUrl: "/gokul/chintaharn mahadev.png" },
-  { id: 6, title: "Gokul Mahavan", templeName: "", imageUrl: "/gokul/gokul mahavan (2).png" },
-  { id: 1, title: "Gokul Mahavan", templeName: "", imageUrl: "/gokul/gokul mahavan (3).png" },
-  { id: 2, title: "Gokul Mahavan", templeName: "", imageUrl: "/gokul/gokul mahavan (4).png" },
-  { id: 3, title: "Gokul Mahavan", templeName: "", imageUrl: "/gokul/gokul mahavan.png" },
-  { id: 4, title: "Nand Bhawan Gokul ", templeName: "", imageUrl: "/gokul/nand bhawan gokul (2).png" },
-  { id: 5, title: "Nand Bhawan Gokul ", templeName: "", imageUrl: "/gokul/nand bhawan gokul (3).png" },
-  { id: 6, title: "Nand Bhawan Gokul ", templeName: "", imageUrl: "/gokul/nand bhawan gokul.png" },
-  { id: 6, title: "Raman Bihari Ji Gokul", templeName: "", imageUrl: "/gokul/raman bihari ji gokul.png" },
-  { id: 6, title: "Raskhan Samadhi Gokul", templeName: "", imageUrl: "/gokul/raskhan samadhi gokul (2).png" },
-  { id: 6, title: "Raskhan Samadhi Gokul", templeName: "", imageUrl: "/gokul/raskhan samadhi gokul.png" },
-  { id: 6, title: "Taj bibi Ki Samadhi Gokul", templeName: "", imageUrl: "/gokul/taj bibi ki samadhi gokul (2).png" },
-  { id: 6, title: "Taj bibi Ki Samadhi Gokul", templeName: "", imageUrl: "/gokul/taj bibi ki samadhi gokul.png" },
+  { id: 2, title: "Brahmanad Ghat Gokul", templeName: "", imageUrl: "/gokul/brahmanadghatgoku.jpeg" },
+  { id: 3, title: "Chintaharan Mahadev Gokul", templeName: "", imageUrl: "/gokul/chintaharanmahadevgoku.jpeg" },
+  { id: 4, title: "Chintaharan Mahadev", templeName: "", imageUrl: "/gokul/chintaharanmahade.jpeg" },
+  { id: 5, title: "Chintaharn Mahadev", templeName: "", imageUrl: "/gokul/chintaharnmahade.jpeg" },
+  { id: 3, title: "Gokul Mahavan", templeName: "", imageUrl: "/gokul/gokulmahavan.jpeg" },
+  { id: 5, title: "Nand Bhawan Gokul ", templeName: "", imageUrl: "/gokul/nandbhawangokul.jpeg" },
+  { id: 6, title: "Raman Bihari Ji Gokul", templeName: "", imageUrl: "/gokul/ramanbiharijigoku.jpeg" },
+  { id: 6, title: "Raskhan Samadhi Gokul", templeName: "", imageUrl: "/gokul/raskhansamadhigoku.jpeg" },
+  { id: 6, title: "Taj bibi Ki Samadhi Gokul", templeName: "", imageUrl: "/gokul/tajbibikisamadhigokul.jpeg" },
 
 
 

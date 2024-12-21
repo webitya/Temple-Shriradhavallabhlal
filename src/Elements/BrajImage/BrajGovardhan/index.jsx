@@ -2,23 +2,20 @@ import React, { useState } from 'react';
 import LayoutEl from '../../../Shared/Layout';
 
 const cardsData = [
-  { id: 1, title: "Chakreshwar Mahadev Govardhan", templeName: "", imageUrl: "/govardhan/chakreshwar mahadev govardhan.png" },
-  { id: 2, title: "Govind Kund Govardhan", templeName: "", imageUrl: "/govardhan/govind kund govardhan.png" },
-  { id: 3, title: "Gulal Kund Govardhan", templeName: "", imageUrl: "/govardhan/gulal kund govardhan.png" },
-  { id: 4, title: "Kusum Sarovar Govardhan", templeName: "", imageUrl: "/govardhan/kusum sarovar govardhan (2).png" },
-  { id: 5, title: "Kusum Sarovar Govardhan", templeName: "", imageUrl: "/govardhan/kusum sarovar govardhan.png" },
-  { id: 6, title: "Lalita Kund Govardhan", templeName: "", imageUrl: "/govardhan/lalita kund govardhan.png" },
-  { id: 1, title: "Mukharbind Govardhan", templeName: "", imageUrl: "/govardhan/mukharbind govardhan.png" },
-  { id: 2, title: "Naval Kund Govardhan", templeName: "", imageUrl: "/govardhan/naval kund govardhan.png" },
-  { id: 4, title: "Punchri Ki Lotha Ji Govardhan", templeName: "", imageUrl: "/govardhan/punchri ki lotha ji govardhan.png" },
-  { id: 5, title: "Radha Kund Govardhan", templeName: "", imageUrl: "/govardhan/radha kund govardhan.png" },
-  { id: 6, title: "Rudra Kund Govardhan", templeName: "", imageUrl: "/govardhan/rudra kund govardhan.png" },
-  { id: 6, title: "Sankarsan Kund Govardhan", templeName: "", imageUrl: "/govardhan/sankarsan kund govardhan.png" },
-  { id: 6, title: "Shindhuri Shila Govardhan", templeName: "", imageUrl: "/govardhan/shindhuri shila govardhan.png" },
-  { id: 6, title: "Shri Nath Ji Govardhan", templeName: "", imageUrl: "/govardhan/shri nath ji govardhan.png" },
-  { id: 6, title: "Sindhuri Shila Govardhan", templeName: "", imageUrl: "/govardhan/sindhuri shila govardhan.png" },
-  { id: 6, title: "Udhaav Kund Govardhan", templeName: "", imageUrl: "/govardhan/udhaav kund govardhan.png" },
-  { id: 6, title: "Udhaav Mandir Kusum Sarovar Govardhan", templeName: "", imageUrl: "/govardhan/udhaav mandir kusum sarovar govardhan.png" },
+  { id: 1, title: "Chakreshwar Mahadev Govardhan", templeName: "", imageUrl: "/govardhan/chakreshwarmahadevgovardha.jpeg" },
+  { id: 2, title: "Govind Kund Govardhan", templeName: "", imageUrl: "/govardhan/govindkundgovardha.jpeg" },
+  { id: 3, title: "Gulal Kund Govardhan", templeName: "", imageUrl: "/govardhan/gulalkundgovardha.jpeg" },
+  { id: 4, title: "Kusum Sarovar Govardhan", templeName: "", imageUrl: "/govardhan/kusumsarovargovardha.jpeg" },
+  { id: 6, title: "Lalita Kund Govardhan", templeName: "", imageUrl: "/govardhan/lalitakundgovardha.jpeg" },
+  { id: 1, title: "Mukharbind Govardhan", templeName: "", imageUrl: "/govardhan/mukharbindgovardha.jpeg" },
+  { id: 2, title: "Naval Kund Govardhan", templeName: "", imageUrl: "/govardhan/navalkundgovardha.jpeg" },
+  { id: 4, title: "Punchri Ki Lotha Ji Govardhan", templeName: "", imageUrl: "/govardhan/punchrikilothajigovardha.jpeg" },
+  { id: 6, title: "Rudra Kund Govardhan", templeName: "", imageUrl: "/govardhan/rudrakundgovardha.jpeg" },
+  { id: 6, title: "Sankarsan Kund Govardhan", templeName: "", imageUrl: "/govardhan/sankarsankundgovardha.jpeg" },
+  { id: 6, title: "Shindhuri Shila Govardhan", templeName: "", imageUrl: "/govardhan/shindhurishilagovardha.jpeg" },
+  { id: 6, title: "Shri Nath Ji Govardhan", templeName: "", imageUrl: "/govardhan/shrinathjigovardha.jpeg" },
+  { id: 6, title: "Udhaav Kund Govardhan", templeName: "", imageUrl: "/govardhan/udhaavkundgovardha.jpeg" },
+  { id: 6, title: "Udhaav Mandir Kusum Sarovar Govardhan", templeName: "", imageUrl: "/govardhan/udhaavmandirkusumsarovargovardha.jpeg" },
 
 
   

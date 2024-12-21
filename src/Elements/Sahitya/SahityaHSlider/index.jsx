@@ -56,9 +56,12 @@ const SahityaHSlider= () => {
         <h1 className="text-xl md:text-2xl font-semibold text-purple-700 tracking-wide">
           Explore Sacred Sahitya
         </h1>
+       
+        <Link to="/hit-sahitya">
         <h1 className="text-purple-500 hover:text-purple-800 transition cursor-pointer font-medium text-base md:text-lg border border-purple-500 px-4 py-1 rounded-full hover:bg-purple-50">
           View All
         </h1>
+        </Link>
       </div>
       <Carousel
         arrows

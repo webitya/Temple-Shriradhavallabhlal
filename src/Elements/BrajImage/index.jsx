@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const cardsData = [
-  { id: 1, templeName: "Vrindavan", imageUrl: "/vrindavan/10.png", link: "/braj-vrindavan" },
-  { id: 2, templeName: "Mathura", imageUrl: "/vrindavan/13.png", link: "/braj-mathura" },
-  { id: 3, templeName: "Barsana", imageUrl: "/vrindavan/16.png", link: "/braj-barsana" },
-  { id: 4, templeName: "Govardhan", imageUrl: "/vrindavan/18.png", link: "/braj-govardhan" },
-  { id: 5, templeName: "Gokul", imageUrl: "/vrindavan/21.png", link: "/braj-gokul" },
-  { id: 6, templeName: "Nand Gaon", imageUrl: "/vrindavan/22.png", link: "/braj-nand" },
+  { id: 1, templeName: "Vrindavan", imageUrl: "/vrindavan/brj5i.jpeg", link: "/braj-vrindavan" },
+  { id: 2, templeName: "Mathura", imageUrl: "/vrindavan/brj1.jpeg", link: "/braj-mathura" },
+  { id: 3, templeName: "Barsana", imageUrl: "/vrindavan/brj2.jpeg", link: "/braj-barsana" },
+  { id: 4, templeName: "Govardhan", imageUrl: "/vrindavan/brj3.jpeg", link: "/braj-govardhan" },
+  { id: 5, templeName: "Gokul", imageUrl: "/vrindavan/brj4.jpeg", link: "/braj-gokul" },
+  { id: 6, templeName: "Nand Gaon", imageUrl: "/vrindavan/brj5.jpeg", link: "/braj-nand" },
 ];
 
 

@@ -3,27 +3,22 @@ import LayoutEl from '../../../Shared/Layout';
 
 
 const cardsData = [
-  { id: 6, title: "Bankey Bihari Ji", templeName: "", imageUrl: "/vrindavan/bankey bihari ji (2).png" },
-  { id: 6, title: "Bankey Bihari Ji", templeName: "", imageUrl: "/vrindavan/bankey bihari ji (3).png" },
-  { id: 6, title: "Bankey Bihari Ji", templeName: "", imageUrl: "/vrindavan/bankey bihari ji.png" },
-  { id: 6, title: "Gopeshwar Mahadev Ji", templeName: "", imageUrl: "/vrindavan/gopeshwar mahadev ji (2).png" },
-  { id: 1, title: "Gopeshwar Mahadev Ji", templeName: "", imageUrl: "/vrindavan/gopeshwar mahadev ji.png" },
-  { id: 2, title: "Nidhivan Ji", templeName: "", imageUrl: "/vrindavan/nidhivan ji (2).png" },
-  { id: 3, title: "Nidhivan Ji", templeName: "", imageUrl: "/vrindavan/nidhivan ji.png" },
-  { id: 4, title: "Prem Mandir", templeName: "", imageUrl: "/vrindavan/prem mandir (2).png" },
-  { id: 5, title: "Prem Mandir", templeName: "", imageUrl: "/vrindavan/prem mandir.png" },
-  { id: 6, title: "Radha Raman", templeName: "", imageUrl: "/vrindavan/radha raman (2).png" },
-  { id: 1, title: "Radha Raman", templeName: "", imageUrl: "/vrindavan/radha raman (3).png" },
-  { id: 2, title: "Radhavallabh Ji", templeName: "", imageUrl: "/vrindavan/radhavallabh ji (2).png" },
-  { id: 3, title: "Radhavallabh Ji", templeName: "", imageUrl: "/vrindavan/radhavallabh ji (3).png" },
-  { id: 4, title: "Radhavallabh Ji", templeName: "", imageUrl: "/vrindavan/radhavallabh ji.png" },
-  { id: 5, title: "Sneh Bihari Ji", templeName: "", imageUrl: "/vrindavan/sneh bihari ji.png" },
-  { id: 1, title: "", templeName: "", imageUrl: "/vrindavan/10.png" },
-  { id: 2, title: "", templeName: "", imageUrl: "/vrindavan/13.png" },
-  { id: 3, title: "", templeName: "", imageUrl: "/vrindavan/16.png" },
-  { id: 4, title: "", templeName: "", imageUrl: "/vrindavan/18.png" },
-  { id: 5, title: "", templeName: "", imageUrl: "/vrindavan/21.png" },
-  { id: 6, title: "", templeName: "", imageUrl: "/vrindavan/22.png" },
+  { id: 6, title: "Bankey Bihari Ji", templeName: "", imageUrl: "/vrindavan/bankeybiharij.jpeg" },
+  { id: 6, title: "Gopeshwar Mahadev Ji", templeName: "", imageUrl: "/vrindavan/gopeshwarmahadevj.jpeg" },
+
+
+  { id: 5, title: "Prem Mandir", templeName: "", imageUrl: "/vrindavan/premmandi.jpeg" },
+  { id: 6, title: "Radha Raman", templeName: "", imageUrl: "/vrindavan/radharama.jpeg" },
+
+
+  { id: 4, title: "Radhavallabh Ji", templeName: "", imageUrl: "/vrindavan/radhavallabhj.jpeg" },
+  { id: 5, title: "Sneh Bihari Ji", templeName: "", imageUrl: "/vrindavan/snehbiharij.jpeg" },
+  // { id: 1, title: "", templeName: "", imageUrl: "/vrindavan/10.jpeg" },
+  // { id: 2, title: "", templeName: "", imageUrl: "/vrindavan/13.jpeg" },
+  // { id: 3, title: "", templeName: "", imageUrl: "/vrindavan/16.jpeg" },
+  // { id: 4, title: "", templeName: "", imageUrl: "/vrindavan/18.jpeg" },
+  // { id: 5, title: "", templeName: "", imageUrl: "/vrindavan/21.jpeg" },
+  // { id: 6, title: "", templeName: "", imageUrl: "/vrindavan/22.jpeg" },
   
   
 ];

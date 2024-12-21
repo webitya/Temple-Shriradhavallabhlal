@@ -41,11 +41,3 @@ const App=()=>{
   return display
 }
 export default App
-{/* <li className="hover:text-blue-600 cursor-pointer"><Link to="/">Home</Link></li>
-          <li className="hover:text-blue-600 cursor-pointer"><Link to="/about-us">About</Link></li>
-          <li className="hover:text-blue-600 cursor-pointer"><Link to="/online-seva">Online Seva</Link></li>
-          <li className="hover:text-blue-600 cursor-pointer"><Link to="/sahitya">Sahitya</Link></li>
-          <li className="hover:text-blue-600 cursor-pointer"><Link to="/utsav-patrika">Utsav Patrika</Link></li>
-          <li className="hover:text-blue-600 cursor-pointer"><Link to="/related-places">Related Places</Link></li>
-          <li className="hover:text-blue-600 cursor-pointer"><Link to="/contact-us">Contact Us</Link></li>
-          <li className="hover:text-blue-600 cursor-pointer"><Link to="/donate"><Button>DONATE</Button></Link></li> */}

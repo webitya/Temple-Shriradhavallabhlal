@@ -1,26 +1,28 @@
 import React from 'react';
 
 const cardsData = [
-  { id: 1, title: "Anakut Darshan", imageUrl: "/Utsav/Anakut Darshan.png", pdfUrl: "/HitSahityPdf/Yamunashtak.pdf" },
-  { id: 2, title: "basant utsav", imageUrl: "/Utsav/basant utsav.png", pdfUrl: "/HitSahityPdf/Hit Chaurasi ji.pdf" },
-  { id: 3, title: "Chandan Utsav", imageUrl: "/Utsav/Chandan Utsav.png", pdfUrl: "/HitSahityPdf/Sfut Vani.pdf" },
-  { id: 4, title: "deepawali utsav", imageUrl: "/Utsav/deepawali utsav.png", pdfUrl: "/HitSahityPdf/Vrindavan dham ko mandal.pdf" },
-  { id: 5, title: "gopasthmi", imageUrl: "/Utsav/gopasthmi.png", pdfUrl: "/HitSahityPdf/Karuna Beli.pdf" },
-  { id: 6, title: "Vrindavan Satlila", imageUrl: "/Utsav/Gulab Dol.png", pdfUrl: "/HitSahityPdf/Vrindavan Satlila.pdf" },
-  { id: 7, title: "Haryali Teej", imageUrl: "/Utsav/Haryali Teej.png", pdfUrl: "/HitSahityPdf/Sewak Vani.pdf" },
-  { id: 8, title: "Hitotsav", imageUrl: "/Utsav/Hitotsav.png", pdfUrl: "/Utsav/tempImagecTDNAI.jpeg" },
-  { id: 9, title: "Holi ", imageUrl: "/Utsav/Holi (2).png", pdfUrl: "/Utsav/tempImageeHNRIr.jpeg" },
-  { id: 10, title: "Holi Dol Utsav", imageUrl: "/Utsav/Holi Dol Utsav.png", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
-  { id: 10, title: "Holi Utsav", imageUrl: "/Utsav/Holi Utsav (2).png", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
-  { id: 10, title: "Holi Utsav", imageUrl: "/Utsav/Holi Utsav.png", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
-  { id: 10, title: "Jhulan Utsav", imageUrl: "/Utsav/Jhulan Utsav.png", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
-  { id: 10, title: "Khichadi Utsav", imageUrl: "/Utsav/Khichadi Utsav.png", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" }, { id: 10, title: "Krishna Janamasthami", imageUrl: "/Utsav/Krishna Janamasthami.png", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
-  { id: 10, title: "Nauka Vihar", imageUrl: "/Utsav/Nauka Vihar.png", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
-  { id: 10, title: "Radhastami", imageUrl: "/Utsav/Radhastami.png", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
-  { id: 10, title: "Sharad Utsav", imageUrl: "/Utsav/Sharad Utsav.png", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
-  { id: 10, title: "Vyahula Utsav", imageUrl: "/Utsav/Vyahula Utsav.png", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
-  { id: 10, title: "Vyahula", imageUrl: "/Utsav/Vyahula.png", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
-  { id: 10, title: "Yugal Darshan", imageUrl: "/Utsav/Yugal Darshan.png", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
+  { id: 1, title: "Anakut Darshan", imageUrl: "/Utsav/AnakutDarsha.jpeg", pdfUrl: "/HitSahityPdf/Yamunashtak.pdf" },
+  { id: 2, title: "basant utsav", imageUrl: "/Utsav/basantutsa.jpeg", pdfUrl: "/HitSahityPdf/Hit Chaurasi ji.pdf" },
+  { id: 3, title: "Chandan Utsav", imageUrl: "/Utsav/ChandanUtsa.jpeg", pdfUrl: "/HitSahityPdf/Sfut Vani.pdf" },
+  { id: 4, title: "deepawali utsav", imageUrl: "/Utsav/deepawaliutsa.jpeg", pdfUrl: "/HitSahityPdf/Vrindavan dham ko mandal.pdf" },
+  { id: 5, title: "gopasthmi", imageUrl: "/Utsav/gopasthm.jpeg", pdfUrl: "/HitSahityPdf/Karuna Beli.pdf" },
+  { id: 6, title: "Vrindavan Satlila", imageUrl: "/Utsav/GulabDo.jpeg", pdfUrl: "/HitSahityPdf/Vrindavan Satlila.pdf" },
+  { id: 7, title: "Haryali Teej", imageUrl: "/Utsav/HaryaliTee.jpeg", pdfUrl: "/HitSahityPdf/Sewak Vani.pdf" },
+  { id: 8, title: "Hitotsav", imageUrl: "/Utsav/Hitotsa.jpeg", pdfUrl: "/Utsav/tempImagecTDNAI.jpeg" },
+  { id: 9, title: "Holi ", imageUrl: "/Utsav/Holi.jpeg", pdfUrl: "/Utsav/tempImageeHNRIr.jpeg" },
+  { id: 10, title: "Holi Dol Utsav", imageUrl: "/Utsav/HoliDolUtsa.jpeg", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
+  { id: 11, title: "Holi Utsav", imageUrl: "/Utsav/HoliUtsav.jpeg", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
+  { id: 12, title: "Jhulan Utsav", imageUrl: "/Utsav/JhulanUtsa.jpeg", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
+ 
+  { id: 13, title: "Khichadi Utsav", imageUrl: "/Utsav/KhichadiUtsa.jpeg", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" }, 
+  { id: 14, title: "Nauka Vihar", imageUrl: "/Utsav/NaukaViha.jpeg", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
+  { id: 15, title: "Radhastami", imageUrl: "/Utsav/Radhastam.jpeg", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
+  { id: 16, title: "Sharad Utsav", imageUrl: "/Utsav/SharadUtsa.jpeg", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
+  { id: 17, title: "Vyahula Utsav", imageUrl: "/Utsav/VyahulaUtsa.jpeg", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
+  { id: 18, title: "Vyahula", imageUrl: "/Utsav/Vyahul.jpeg", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
+  { id: 19, title: "Yugal Darshan", imageUrl: "/Utsav/YugalDarsha.jpeg", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
+  { id: 10, title: "Krishna Janamasthami", imageUrl: "/Utsav/KrishnaJanamastham.jpeg", pdfUrl: "/Utsav/tempImageEIr0WQ.jpeg" },
+ 
 
   
   

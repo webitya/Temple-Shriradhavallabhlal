@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Carousel, Card, Row, Col } from 'antd';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
@@ -5,7 +6,7 @@ import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 const NextArrow = ({ onClick }) => (
   <div className="absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer z-10">
     <div
-      className="bg-yellow-500 p-2 rounded-full hover:bg-yellow-700 transition duration-300"
+      className="bg-purple-500 p-2 rounded-full hover:bg-purple-700 transition duration-300"
       onClick={onClick}
     >
       <RightOutlined className="text-white" />
@@ -16,7 +17,7 @@ const NextArrow = ({ onClick }) => (
 const PrevArrow = ({ onClick }) => (
   <div className="absolute left-2 top-1/2 transform -translate-y-1/2 cursor-pointer z-10">
     <div
-      className="bg-yellow-500 p-2 rounded-full hover:bg-yellow-700 transition duration-300"
+      className="bg-purple-500 p-2 rounded-full hover:bg-purple-700 transition duration-300"
       onClick={onClick}
     >
       <LeftOutlined className="text-white" />
@@ -24,7 +25,7 @@ const PrevArrow = ({ onClick }) => (
   </div>
 );
 
-const HomeUtsav = () => {
+const  HomeUtsav= () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const items = [
@@ -54,10 +55,10 @@ const HomeUtsav = () => {
     <div className="container mx-auto px-2 py-3 relative">
       <div className="p-0 m-0 flex justify-between items-center mb-4">
         {/* Elegant, smaller font size and style for the header */}
-        <h1 className="text-xl md:text-2xl font-semibold text-yellow-700 tracking-wide" style={{color:"#FABC3F"}}>
-          Explore Sacred Utsavs
+        <h1 className="text-xl md:text-2xl font-semibold text-purple-700 tracking-wide">
+          Explore Sacred BrajDarshan
         </h1>
-        <h1 className="text-yellow-500 hover:text-yellow-800 transition cursor-pointer font-medium text-base md:text-lg border border-yellow-500 px-4 py-1 rounded-full hover:bg-yellow-50">
+        <h1 className="text-purple-500 hover:text-purple-800 transition cursor-pointer font-medium text-base md:text-lg border border-purple-500 px-4 py-1 rounded-full hover:bg-purple-50">
           View All
         </h1>
       </div>
@@ -79,7 +80,7 @@ const HomeUtsav = () => {
                     cover={<img alt={item.title} src={item.image} />}
                     className="flex flex-col h-full shadow-lg transform hover:scale-105 transition duration-300"
                   >
-                    <Card.Meta title={item.title} className="p-0 mt-auto text-center font-small text-yellow-700" />
+                    <Card.Meta title={item.title} className="p-0 mt-auto text-center font-small text-purple-700" />
                   </Card>
                 </Col>
               ))}

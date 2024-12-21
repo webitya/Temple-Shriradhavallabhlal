@@ -2,23 +2,15 @@ import React, { useState } from 'react';
 import LayoutEl from '../../../Shared/Layout';
 
 const cardsData = [
-  { id: 1, title: "Baad Gram Mathura", templeName: "", imageUrl: "/mathura/baad gram mathura (2).png" },
-  { id: 2, title: "Baad Gram Mathura", templeName: "", imageUrl: "/mathura/baad gram mathura (3).png" },
-  { id: 3, title: "Baad Gram Mathura", templeName: "", imageUrl: "/mathura/baad gram mathura (4).png" },
-  { id: 4, title: "Baad Gram Mathura", templeName: "", imageUrl: "/mathura/baad gram mathura (5).png" },
-  { id: 5, title: "Baad Gram Mathura", templeName: "", imageUrl: "/mathura/baad gram mathura.png" },
-  { id: 6, title: "Bhuteshwar Mahadev Mathura", templeName: "", imageUrl: "/mathura/bhuteshwar mahadev mathura (2).png" },
-  { id: 1, title: "Bhuteshwar Mahadev Mathura", templeName: "", imageUrl: "/mathura/bhuteshwar mahadev mathura (3).png" },
-  { id: 3, title: "Gokarneshwar Mahadev Mathura", templeName: "", imageUrl: "/mathura/gokarneshwar mahadev mathura.png" },
-  { id: 4, title: "kankali Devi Mathura", templeName: "", imageUrl: "/mathura/kankali devi mathura (2).png" },
-  { id: 5, title: "kankali Devi Mathura", templeName: "", imageUrl: "/mathura/kankali devi mathura.png" },
-  { id: 6, title: "Potra Kund Mathura", templeName: "", imageUrl: "/mathura/potra kund mathura.png" },
-  { id: 6, title: "Shri Dirgh Vishnu Temple Mathura", templeName: "", imageUrl: "/mathura/shri dirgh vishnu temple mathura (2).png" },
-  { id: 6, title: "Shri Dirgh Vishnu Temple Mathura", templeName: "", imageUrl: "/mathura/shri dirgh vishnu temple mathura.png" },
-  { id: 6, title: "Shri Rangeshwar Mahadev Mathura", templeName: "", imageUrl: "/mathura/shri rangeshwar mahadev mathura.png" },
-  { id: 6, title: "Vishram Ghar Mathura", templeName: "", imageUrl: "/mathura/vishram ghar mathura (2).png" },
-  { id: 6, title: "Vishram Ghar Mathura", templeName: "", imageUrl: "/mathura/vishram ghar mathura (3).png" },
-  { id: 6, title: "Vishram Ghar Mathura", templeName: "", imageUrl: "/mathura/vishram ghar mathura.png" },
+  { id: 1, title: "Baad Gram Mathura", templeName: "", imageUrl: "/mathura/baadgrammathur.jpeg" },
+  { id: 6, title: "Bhuteshwar Mahadev Mathura", templeName: "", imageUrl: "/mathura/bhuteshwarmahadevmathur.jpeg" },
+  { id: 3, title: "Gokarneshwar Mahadev Mathura", templeName: "", imageUrl: "/mathura/gokarneshwarmahadevmathur.jpeg" },
+  { id: 4, title: "kankali Devi Mathura", templeName: "", imageUrl: "/mathura/kankalidevimathur.jpeg" },
+  { id: 6, title: "Potra Kund Mathura", templeName: "", imageUrl: "/mathura/potrakundmathur.jpeg" },
+  { id: 6, title: "Shri Dirgh Vishnu Temple Mathura", templeName: "", imageUrl: "/mathura/shridirghvishnutemplemathur.jpeg" },
+
+  { id: 6, title: "Shri Rangeshwar Mahadev Mathura", templeName: "", imageUrl: "/mathura/shrirangeshwarmahadevmathur.jpeg" },
+  { id: 6, title: "Vishram Ghar Mathura", templeName: "", imageUrl: "/mathura/vishramgharmathur.jpeg" },
 
 
   

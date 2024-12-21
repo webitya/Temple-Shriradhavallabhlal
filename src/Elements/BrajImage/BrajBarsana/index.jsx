@@ -6,16 +6,16 @@ import LayoutEl from '../../../Shared/Layout';
 
 const cardsData = [
  
-  { id: 2, title: "Asht Sakhi Mandir Barsana", templeName: "", imageUrl: "/barsana/asht sakhi mandir barsana.png" },
-  { id: 3, title: "Daan Garh Barsana", templeName: "", imageUrl: "/barsana/daan garh barsana.png" },
-  { id: 5, title: "Kirti Mandir Barsana", templeName: "", imageUrl: "/barsana/kirti mandir barsana.png" },
-  { id: 2, title: "Maan Garh Barsana", templeName: "", imageUrl: "/barsana/maan garh barsana.png" },
-  { id: 3, title: "Nagaridaskuter Barsana", templeName: "", imageUrl: "/barsana/nagaridaskuter barsana.png" },
-  { id: 4, title: "Prem Sarovar Barsana", templeName: "", imageUrl: "/barsana/prem sarovar barsana.png" },
-  { id: 5, title: "Radha Sarovar Barsana", templeName: "", imageUrl: "/barsana/radha sarovar barsana.png" },
-  { id: 1, title: "Rangela Mahal Barsana", templeName: "", imageUrl: "/barsana/rangela mahal barsana.png" },
-  { id: 2, title: "Shri Ju Radha Rani Mandir Barsana", templeName: "", imageUrl: "/barsana/shri ju radha rani mandir barsana.png" },
-  { id: 1, title: "", templeName: "", imageUrl: "/barsana/3.png" },
+  { id: 2, title: "Asht Sakhi Mandir Barsana", templeName: "", imageUrl: "/barsana/ashtsakhimandirbarsan.jpeg" },
+  { id: 3, title: "Daan Garh Barsana", templeName: "", imageUrl: "/barsana/daangarhbarsan.jpeg" },
+  { id: 5, title: "Kirti Mandir Barsana", templeName: "", imageUrl: "/barsana/kirtimandirbarsan.jpeg" },
+  { id: 2, title: "Maan Garh Barsana", templeName: "", imageUrl: "/barsana/maangarhbarsan.jpeg" },
+  { id: 3, title: "Nagaridaskuter Barsana", templeName: "", imageUrl: "/barsana/nagaridaskuterbarsan.jpeg" },
+  { id: 4, title: "Prem Sarovar Barsana", templeName: "", imageUrl: "/barsana/premsarovarbarsan.jpeg" },
+  { id: 5, title: "Radha Sarovar Barsana", templeName: "", imageUrl: "/barsana/radhasarovarbarsan.jpeg" },
+  { id: 1, title: "Rangela Mahal Barsana", templeName: "", imageUrl: "/barsana/rangelamahalbarsan.jpeg" },
+  { id: 2, title: "Shri Ju Radha Rani Mandir Barsana", templeName: "", imageUrl: "/barsana/shrijuradharanimandirbarsan.jpeg" },
+
 
   
 

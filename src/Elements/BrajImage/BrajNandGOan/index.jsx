@@ -2,19 +2,17 @@ import React, { useState } from 'react';
 import LayoutEl from '../../../Shared/Layout';
 
 const cardsData = [
-  { id: 1, title: "Aashehwar Mahadev Nandgoan", templeName: "", imageUrl: "/nand goan/aashehwar mahadev nandgoan.png" },
-  { id: 2, title: "Charan Pahadi Nandgoan", templeName: "", imageUrl: "/nand goan/charan pahadi nandgoan (2).png" },
-  { id: 3, title: "Charan Pahadi Nandgoan", templeName: "", imageUrl: "/nand goan/charan pahadi nandgoan.png" },
-  { id: 4, title: "Mor Bihari Mandir Nandgoan", templeName: "", imageUrl: "/nand goan/mor bihari mandir nandgoan.png" },
-  { id: 5, title: "Nand Bethak Nandgoan", templeName: "", imageUrl: "/nand goan/nand bethak nandgoan.png" },
-  { id: 6, title: "Nand Kung Nandgoan", templeName: "", imageUrl: "/nand goan/nand kung nandgoan.png" },
-  { id: 2, title: "Pawan Sarovar Nandgoan", templeName: "", imageUrl: "/nand goan/pawan sarovar nandgoan.png" },
-  { id: 3, title: "Ter Katab Nandgoan", templeName: "", imageUrl: "/nand goan/ter katab nandgoan.png" },
-  { id: 4, title: "udhavi Kiyari Nandgoan", templeName: "", imageUrl: "/nand goan/udhavi kiyari nandgoan.png" },
-  { id: 5, title: "Varinda Devi Mandir Nandgoan", templeName: "", imageUrl: "/nand goan/varinda devi mandir nandgoan (2).png" },
-  { id: 6, title: "Varinda Devi Mandir Nandgoan", templeName: "", imageUrl: "/nand goan/varinda devi mandir nandgoan.png" },
-  { id: 6, title: "Yashoda Baethak Nandgoan", templeName: "", imageUrl: "/nand goan/yashoda baethak nandgoan.png" },
-  { id: 6, title: "Yasodha kund Nandgoan", templeName: "", imageUrl: "/nand goan/yasodha kund nandgoan.png" },
+  { id: 1, title: "Aashehwar Mahadev Nandgoan", templeName: "", imageUrl: "/nand goan/aashehwarmahadevnandgoa.jpeg" },
+  { id: 3, title: "Charan Pahadi Nandgoan", templeName: "", imageUrl: "/nand goan/charanpahadinandgoa.jpeg" },
+  { id: 4, title: "Mor Bihari Mandir Nandgoan", templeName: "", imageUrl: "/nand goan/morbiharimandirnandgoa.jpeg" },
+  { id: 5, title: "Nand Bethak Nandgoan", templeName: "", imageUrl: "/nand goan/nandbethaknandgoa.jpeg" },
+  { id: 6, title: "Nand Kung Nandgoan", templeName: "", imageUrl: "/nand goan/nandkungnandgoa.jpeg" },
+  { id: 2, title: "Pawan Sarovar Nandgoan", templeName: "", imageUrl: "/nand goan/pawansarovarnandgoa.jpeg" },
+  { id: 3, title: "Ter Katab Nandgoan", templeName: "", imageUrl: "/nand goan/terkatabnandgoa.jpeg" },
+  { id: 4, title: "udhavi Kiyari Nandgoan", templeName: "", imageUrl: "/nand goan/udhavikiyarinandgoa.jpeg" },
+  { id: 6, title: "Varinda Devi Mandir Nandgoan", templeName: "", imageUrl: "/nand goan/varindadevimandirnandgoa.jpeg" },
+  { id: 6, title: "Yashoda Baethak Nandgoan", templeName: "", imageUrl: "/nand goan/yashodabaethaknandgoa.jpeg" },
+  { id: 6, title: "Yasodha kund Nandgoan", templeName: "", imageUrl: "/nand goan/yasodhakundnandgoa.jpeg" },
 
 
 
