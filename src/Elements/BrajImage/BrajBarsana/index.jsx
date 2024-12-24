@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import Navbar from '../../NavbarEl';
-import { CallToAction } from '@mui/icons-material';
-import AppFooter from '../../../Shared/Footer';
 import LayoutEl from '../../../Shared/Layout';
 
 const cardsData = [
@@ -76,7 +73,7 @@ const BrajBarsana = () => {
           onClick={handleCloseModal} 
           style={{ userSelect: "none" }}
         >
-          <div className="relative bg-white p-4 rounded-lg shadow-lg">
+          <div className="relative bg-white rounded-lg shadow-lg">
             <button 
               className="absolute top-2 right-2 text-black text-3xl font-bold"
               onClick={handleCloseModal}

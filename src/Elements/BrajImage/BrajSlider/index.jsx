@@ -1,6 +1,8 @@
+
 import React, { useState } from 'react';
 import { Carousel, Card, Row, Col } from 'antd';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 
 const NextArrow = ({ onClick }) => (
   <div className="absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer z-10">
@@ -24,22 +26,20 @@ const PrevArrow = ({ onClick }) => (
   </div>
 );
 
-const  BrajDarshanSliderEl= () => {
+const SampradayUtsavEl= () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const items = [
-    { title: "Hitotsava", image: "/bg1.jpg" },
-    { title: "Vyahula Utsav", image: "/ca1.jpg" },
-    { title: "Radhasthami", image: "/ca2.jpg" },
-    { title: "Khichadi Utsav", image: "/bg1.jpg" },
-    { title: "Jhulan Utsav", image: "/bg1.jpg" },
-    { title: "Sharad Purnima", image: "/ca1.jpg" },
-    { title: "Maharas", image: "/ca2.jpg" },
-    { title: "Guru Purnima", image: "/ca2.jpg" },
-    { title: "Haryali Teej", image: "/bg1.jpg" },
-    { title: "Nauka Utsav", image: "/ca1.jpg" },
-    { title: "Janamashtami", image: "/ca2.jpg" },
-    { title: "Radhasthami", image: "/bg1.jpg" },
+    // { title: "Hit Harivansh Mahaprabhu ji", image: "/Sant Darshan Slider/chachavrindavandasj.jpeg" },
+    { title: "Chacha Vrindavan Das ji", image: "/Sant Darshan Slider/chachavrindavandasj.jpeg" },
+    { title: "Shri Hariram Vyas ji", image: "/Sant Darshan Slider/dhruvdasj.jpeg" },
+    { title: "Shri Hit Damodar ji Sewak ji", image: "/Sant Darshan Slider/hariramvyasj.jpeg" },
+    { title: "Shri Hit Dhruv Das ji", image: "/Sant Darshan Slider/harivanshjimahaprabh.jpeg" },
+    { title: " Shri hit Vanchandra ji", image: "/Sant Darshan Slider/harivanshjimahaprabhu.jpeg" },
+    { title: "Chacha Vrindavan Das ji", image: "/Sant Darshan Slider/krishnadasj.jpeg" },
+    { title: "Shri Hit Dhruv Das ji", image: "/Sant Darshan Slider/rooplalj.jpeg" },
+    { title: " Shri hit Vanchandra ji", image: "/Sant Darshan Slider/sewakj.jpeg" },
+    { title: "Chacha Vrindavan Das ji", image: "/Sant Darshan Slider/vithalvipuldevj.jpeg" },
   ];
 
   const isSmallDevice = window.innerWidth < 576; // Adjust based on your needs
@@ -55,11 +55,14 @@ const  BrajDarshanSliderEl= () => {
       <div className="p-0 m-0 flex justify-between items-center mb-4">
         {/* Elegant, smaller font size and style for the header */}
         <h1 className="text-xl md:text-2xl font-semibold text-purple-700 tracking-wide">
-          Explore Sacred BrajDarshan
+        श्रीहित राधावल्लभ संप्रदाय उत्सव
+
         </h1>
+        <Link to="/sant-darshan">
         <h1 className="text-purple-500 hover:text-purple-800 transition cursor-pointer font-medium text-base md:text-lg border border-purple-500 px-4 py-1 rounded-full hover:bg-purple-50">
           View All
         </h1>
+        </Link>
       </div>
       <Carousel
         arrows
@@ -91,4 +94,5 @@ const  BrajDarshanSliderEl= () => {
   );
 };
 
-export default BrajDarshanSliderEl;
+export default SampradayUtsavEl;
+

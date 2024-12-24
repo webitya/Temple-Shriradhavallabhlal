@@ -54,7 +54,8 @@ const SahityaHSlider= () => {
       <div className="p-0 m-0 flex justify-between items-center mb-4">
         {/* Elegant, smaller font size and style for the header */}
         <h1 className="text-xl md:text-2xl font-semibold text-purple-700 tracking-wide">
-          Explore Sacred Sahitya
+        श्रीहित रसोपासना एवं संतों की वाणी 
+
         </h1>
        
         <Link to="/hit-sahitya">

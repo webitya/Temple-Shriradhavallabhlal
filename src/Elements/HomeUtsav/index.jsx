@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Carousel, Card, Row, Col } from 'antd';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 
 const NextArrow = ({ onClick }) => (
   <div className="absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer z-10">
@@ -29,18 +30,16 @@ const  HomeUtsav= () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const items = [
-    { title: "Hitotsava", image: "/bg1.jpg" },
-    { title: "Vyahula Utsav", image: "/ca1.jpg" },
-    { title: "Radhasthami", image: "/ca2.jpg" },
-    { title: "Khichadi Utsav", image: "/bg1.jpg" },
-    { title: "Jhulan Utsav", image: "/bg1.jpg" },
-    { title: "Sharad Purnima", image: "/ca1.jpg" },
-    { title: "Maharas", image: "/ca2.jpg" },
-    { title: "Guru Purnima", image: "/ca2.jpg" },
-    { title: "Haryali Teej", image: "/bg1.jpg" },
-    { title: "Nauka Utsav", image: "/ca1.jpg" },
-    { title: "Janamashtami", image: "/ca2.jpg" },
-    { title: "Radhasthami", image: "/bg1.jpg" },
+    { title: "Barsan", image: "/Braj Darshan Slider/barsan.jpeg" },
+    { title: "Dwarikadis", image: "/Braj Darshan Slider/dwarikadis.jpeg" },
+    { title: "Govardha", image: "/Braj Darshan Slider/govardha.jpeg" },
+    { title: "Janambhum", image: "/Braj Darshan Slider/janambhum.jpeg" },
+    { title: "Maansarova", image: "/Braj Darshan Slider/maansarova.jpeg" },
+    { title: "Nandgao", image: "/Braj Darshan Slider/nandgao.jpeg" },
+    { title: "Nidhiva", image: "/Braj Darshan Slider/nidhiva.jpeg" },
+    { title: "Premmandi", image: "/Braj Darshan Slider/premmandi.jpeg" },
+    { title: "Radharama", image: "/Braj Darshan Slider/radharama.jpeg" },
+    { title: "Vrindava", image: "/Braj Darshan Slider/vrindava.jpeg" },
   ];
 
   const isSmallDevice = window.innerWidth < 576; // Adjust based on your needs
@@ -56,11 +55,13 @@ const  HomeUtsav= () => {
       <div className="p-0 m-0 flex justify-between items-center mb-4">
         {/* Elegant, smaller font size and style for the header */}
         <h1 className="text-xl md:text-2xl font-semibold text-purple-700 tracking-wide">
-          Explore Sacred BrajDarshan
+        श्री ब्रज धाम दर्शन 
         </h1>
+        <Link to="/braj-darshan">
         <h1 className="text-purple-500 hover:text-purple-800 transition cursor-pointer font-medium text-base md:text-lg border border-purple-500 px-4 py-1 rounded-full hover:bg-purple-50">
           View All
         </h1>
+        </Link>
       </div>
       <Carousel
         arrows
